@@ -18,9 +18,9 @@ To provide best results possible I decided to focus on automation and approach t
 * All the tests were executed manually and automated afterwards.
 
 # Test cases:
-[<i> Test cases 1 - 10 & 17,18</i>](src/test/resources/features/Movies Happy Path.feature)
+[<i> Test cases 1 - 10 & 17,18</i>](src/test/resources/features/Movies%20Happy%20Path.feature)
 
-[<i> Test cases 11 - 18</i>](src/test/resources/features/Movies Negative Path.feature)
+[<i> Test cases 11 - 18</i>](src/test/resources/features/Movies%20Negative%20Path.feature)
 
 * TC1: Verify user is able to retrieve movies
 * TC2: Verify movies' return status code 200
@@ -40,7 +40,7 @@ To provide best results possible I decided to focus on automation and approach t
 * TC16: Verify user gets 'Method Not Allowed' message for invalid methods
 * TC17: Verify search parameter functionality
 * TC18: Verify skip parameter functionality
-* TC19: Verify endpoint can handle 100 requests per second [executed mannually](detailed-reports/Aurora Tech Assignment Detailed Report.pdf)
+* TC19: Verify endpoint can handle 100 requests per second [executed mannually](detailed-reports/Aurora%20Tech%20Assignment%20Detailed%20Report.pdf)
 
 # Stack for automation:
 * Java
@@ -60,7 +60,7 @@ To provide best results possible I decided to focus on automation and approach t
     - mvn test -Dcucumber.filter.tags="@tagName" (to run tests by tag name e.g. @API, @HappyPath, @NegativePath)
 
 
-# [<i>Detailed Report</i>](detailed-reports/Aurora Tech Assignment Detailed Report.pdf)
+# [<i>Detailed Report</i>](detailed-reports/Aurora%20Tech%20Assignment%20Detailed%20Report.pdf)
 
 Detailed report gives brief introduction to Automation Framework's internal structure. Explains decisions made and the process of testing.
 
